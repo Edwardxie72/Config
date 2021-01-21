@@ -1,6 +1,5 @@
 ---
 Language:        Cpp
-# BasedOnStyle:  GNU
 AccessModifierOffset: -2
 AlignAfterOpenBracket: DontAlign
 AlignConsecutiveAssignments: false
@@ -41,18 +40,18 @@ BraceWrapping:
   BeforeElse: true
   BeforeLambdaBody: false
   BeforeWhile: false
-  IndentBraces: true
+  IndentBraces: false
   SplitEmptyFunction: true
   SplitEmptyRecord: true
   SplitEmptyNamespace: true
-BreakAfterJavaFieldAnnotations true
+BreakAfterJavaFieldAnnotations: true
 BreakBeforeBinaryOperators: None
-BreakBeforeBraces: Attach
+BreakBeforeBraces: Custom
 BreakBeforeTernaryOperators: false
 BreakConstructorInitializers: AfterColon
 BreakInheritanceList: AfterColon
 BreakStringLiterals: true
-ColumnLimit: 80
+ColumnLimit: 120
 CommentPragmas: '^ IWYU pragma:'
 CompactNamespaces: false
 ConstructorInitializerAllOnOneLineOrOnePerLine: false
@@ -92,7 +91,6 @@ InsertTrailingCommas: None
 JavaScriptQuotes: Leave
 JavaScriptWrapImports: true
 KeepEmptyLinesAtTheStartOfBlocks: false
-Language: Cpp
 MacroBlockBegin: ''
 MacroBlockEnd: ''
 MaxEmptyLinesToKeep: 1
