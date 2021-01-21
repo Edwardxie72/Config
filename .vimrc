@@ -14,5 +14,8 @@ set expandtab
 
 set colorcolumn=81
 
+# Automatically set current dir
+set autochdir
+
 # Ctrl+v before { to avoid this remap
 inoremap { {<CR>}<Esc>ko<tab>
