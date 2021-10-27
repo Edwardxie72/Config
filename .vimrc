@@ -14,8 +14,8 @@ colo torte
 
 set colorcolumn=81
 
-# Automatically set current dir
+" Automatically set current dir
 set autochdir
 
-# Ctrl+v before { to avoid this remap
+" Ctrl+v before { to avoid this remap
 inoremap { {<CR>}<Esc>ko<tab>
