@@ -8,9 +8,9 @@ set showmatch
 syntax on
 colo torte
 
-#set shiftwidth=4
-#set softtabstop=4
-#set expandtab
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 
 set colorcolumn=81
 
