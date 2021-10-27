@@ -19,3 +19,5 @@ set autochdir
 
 " Ctrl+v before { to avoid this remap
 inoremap { {<CR>}<Esc>ko<tab>
+
+filetype plugin indent on
